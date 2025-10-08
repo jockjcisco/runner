@@ -1,8 +1,8 @@
 name: NPM Audit Fix
 
 on:
-  schedule:
-    - cron: "0 7 * * 1" # Weekly on Monday at 7 AM UTC
+  # schedule:
+  #   - cron: "0 7 * * 1" # Weekly on Monday at 7 AM UTC
   workflow_dispatch:
 
 jobs:
